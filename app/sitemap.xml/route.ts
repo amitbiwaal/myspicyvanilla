@@ -1,9 +1,10 @@
 import { getCategories, getPostsByCategory, getPublishedPosts } from '@/lib/posts';
 import { STATIC_PAGES, absoluteUrl, escapeXml } from '@/lib/site';
 
-// Generated once and cached; saving a post in the admin refreshes it (lib/revalidate.ts).
-export const dynamic = 'force-static';
-export const revalidate = 3600;
+// Built fresh on every request. Next.js treats /sitemap.xml as a special metadata route whose
+// cached copy is not cleared by revalidatePath(), so caching it would leave new posts out for
+// up to an hour. It is only fetched by crawlers, so one small database read per request is fine.
+export const dynamic = 'force-dynamic';
 
 type Entry = { loc: string; lastmod: string; changefreq: string; priority: string; image?: string };
 
@@ -74,5 +75,10 @@ ${body}
 </urlset>
 `;
 
-  return new Response(xml, { headers: { 'Content-Type': 'application/xml; charset=utf-8' } });
+  return new Response(xml, {
+    headers: {
+      'Content-Type': 'application/xml; charset=utf-8',
+      'Cache-Control': 'public, max-age=0, must-revalidate',
+    },
+  });
 }
