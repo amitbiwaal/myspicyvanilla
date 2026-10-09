@@ -1,0 +1,43 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# env files (secrets live in Vercel and in your local .env.local, never in git)
+.env
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# local development data: SQLite database and image uploads used when Turso/Blob are not configured
+/.data/
+/public/uploads/
+
+# old static-site leftovers and upload bundles kept on disk, not part of the app
+/robots.txt
+/sitemap.xml
+/llms.txt
+/images/
+/screenshots/
+*.zip

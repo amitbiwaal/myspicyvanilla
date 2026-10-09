@@ -1,0 +1,9 @@
+# robots.txt — My Spicy Vanilla
+User-agent: *
+Allow: /
+# The CMS, its API and draft previews are private
+Disallow: /admin/
+Disallow: /api/
+Disallow: /preview/
+
+Sitemap: https://myspicyvanilla.net/sitemap.xml

@@ -1,0 +1,45 @@
+[{
+  "@context":"https://schema.org",
+  "@type":"Organization",
+  "name":"My Spicy Vanilla",
+  "url":"https://myspicyvanilla.net/",
+  "logo":"https://myspicyvanilla.net/images/logo.png",
+  "description":"My Spicy Vanilla is an AI fanfiction generator that writes original, illustrated fanfic chapters starring characters you invent.",
+  "slogan":"The AI fanfiction generator for the fic nobody wrote.",
+  "sameAs":["https://myspicyvanilla.net/"]
+},
+{
+  "@context":"https://schema.org",
+  "@type":"SoftwareApplication",
+  "name":"My Spicy Vanilla AI Fanfiction Generator",
+  "applicationCategory":"EntertainmentApplication",
+  "operatingSystem":"Web",
+  "description":"AI fanfic writer that creates original, illustrated fanfiction chapters from your own characters, ships, tropes and alternate universes.",
+  "url":"https://myspicyvanilla.net/ai-fanfiction-generator/",
+  "offers":{"@type":"Offer","price":"0","priceCurrency":"USD","description":"Free to start"},
+  "aggregateRating":{"@type":"AggregateRating","ratingValue":"4.8","ratingCount":"522000","bestRating":"5","worstRating":"1"}
+},
+{
+  "@context":"https://schema.org",
+  "@type":"BreadcrumbList",
+  "itemListElement":[
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://myspicyvanilla.net/"},
+    {"@type":"ListItem","position":2,"name":"AI Fanfiction Generator","item":"https://myspicyvanilla.net/ai-fanfiction-generator/"}
+  ]
+},
+{
+  "@context":"https://schema.org",
+  "@type":"FAQPage",
+  "mainEntity":[
+    {"@type":"Question","name":"What is an AI fanfiction generator?","acceptedAnswer":{"@type":"Answer","text":"An AI fanfiction generator is a tool that turns your prompt into a finished story. You pick the tropes, the characters, and the setting, and the AI writes the scenes for you. My Spicy Vanilla is an AI fanfic writer built for adult readers, with original illustrations and audio narration on top of the text."}},
+    {"@type":"Question","name":"What is fanfiction?","acceptedAnswer":{"@type":"Answer","text":"Fanfiction is fiction that plays inside a familiar style of world, using the tropes and dynamics fans love. Think enemies to lovers, slow burn, or the fake-dating setup. My Spicy Vanilla lets you write fanfiction with AI using original characters who fit those beloved patterns."}},
+    {"@type":"Question","name":"What does AU mean in fanfiction?","acceptedAnswer":{"@type":"Answer","text":"AU stands for alternate universe. It takes a dynamic you enjoy and drops it into a new setting, like a coffee-shop AU or a vampire court AU. You keep the chemistry and the trope while everything around it changes."}},
+    {"@type":"Question","name":"What is a ship in fanfiction?","acceptedAnswer":{"@type":"Answer","text":"A ship is a romantic pairing you want to see together. Fans ship characters whose tension, banter, or slow burn feels right. In My Spicy Vanilla, you build your own ship from original characters and let the AI bring the pairing to life."}},
+    {"@type":"Question","name":"Can I write fanfiction about my favorite characters?","acceptedAnswer":{"@type":"Answer","text":"My Spicy Vanilla generates original characters and archetypes rather than reproducing copyrighted ones. You cannot import a trademarked cast, but you can recreate the dynamic, the trope, and the AU with your own people. Want the rival-guild dynamic or the brooding space-opera captain? Build that archetype and the story feels just as familiar."}},
+    {"@type":"Question","name":"Can I write fanfiction about real people?","acceptedAnswer":{"@type":"Answer","text":"No. My Spicy Vanilla does not do real person fiction, so no celebrities, public figures, or real individuals. Every character is fictional, original, and an adult over 18. The focus stays on invented casts and the worlds you build around them."}},
+    {"@type":"Question","name":"Is My Spicy Vanilla private?","acceptedAnswer":{"@type":"Answer","text":"Yes. Your stories are private by default, visible only to you unless you choose to share them. Nothing you create is posted to a public feed. You write for yourself, not for a faceless audience."}},
+    {"@type":"Question","name":"Can AI write fanfiction better than a general chatbot?","acceptedAnswer":{"@type":"Answer","text":"General chatbots often refuse romance prompts or flatten the heat into something safe. My Spicy Vanilla is built for this on purpose, so it holds character voice, pacing, and tension across a full story. It also adds original illustrations, audio narration, and built-in editing that a plain chatbot does not. For adult fanfic, a purpose-built tool tends to read warmer and more consistent."}},
+    {"@type":"Question","name":"Is My Spicy Vanilla free?","acceptedAnswer":{"@type":"Answer","text":"Yes. My Spicy Vanilla is free to start with no payment required. Optional upgrades add longer stories, more illustrations, and audio narration when you want them."}},
+    {"@type":"Question","name":"Who is the AI fanfiction generator for?","acceptedAnswer":{"@type":"Answer","text":"It is for anyone who loves tropes, ships, and AU stories and wants them written to taste. Readers who never found their exact pairing, writers who want a fast first draft, and fans who want something private and adult all fit. If you have ever wished a story leaned into the slow burn a little longer, this is for you. All characters are original and 18 or older."}}
+  ]
+}]

@@ -1,0 +1,43 @@
+[{
+  "@context":"https://schema.org",
+  "@type":"WebSite",
+  "name":"My Spicy Vanilla",
+  "url":"https://myspicyvanilla.net/",
+  "inLanguage":"en"
+},
+{
+  "@context":"https://schema.org",
+  "@type":"Organization",
+  "name":"My Spicy Vanilla",
+  "url":"https://myspicyvanilla.net/",
+  "logo":"https://myspicyvanilla.net/images/logo.png",
+  "description":"My Spicy Vanilla is an AI smut generator that writes personalized, illustrated erotic stories for couples.",
+  "slogan":"The AI smut generator that turns your fantasies into personalized, illustrated stories for couples.",
+  "sameAs":["https://myspicyvanilla.net/"]
+},
+{
+  "@context":"https://schema.org",
+  "@type":"SoftwareApplication",
+  "name":"My Spicy Vanilla",
+  "applicationCategory":"EntertainmentApplication",
+  "operatingSystem":"Web",
+  "description":"AI smut writer and erotic story generator that creates personalized, illustrated sensual stories for couples.",
+  "url":"https://myspicyvanilla.net/",
+  "offers":{"@type":"Offer","price":"0","priceCurrency":"USD","description":"Free to start"},
+  "aggregateRating":{"@type":"AggregateRating","ratingValue":"4.8","ratingCount":"522000","bestRating":"5","worstRating":"1"}
+},
+{
+  "@context":"https://schema.org",
+  "@type":"FAQPage",
+  "mainEntity":[
+    {"@type":"Question","name":"What is My Spicy Vanilla?","acceptedAnswer":{"@type":"Answer","text":"My Spicy Vanilla is an AI smut generator that writes personalized erotic stories for couples. You describe the characters, setting, and heat level, and the AI smut writer produces an illustrated, ready-to-read sensual story in seconds. Every story is private and made on demand."}},
+    {"@type":"Question","name":"What is smut?","acceptedAnswer":{"@type":"Answer","text":"Smut is fiction that focuses on explicit sexual content, most often used to describe romance and erotica with detailed intimate scenes. In the book community, smut refers to novels or stories where the sexual relationship is central to the plot rather than implied. My Spicy Vanilla lets you generate your own smut stories tailored to your preferences."}},
+    {"@type":"Question","name":"What does smut mean in books?","acceptedAnswer":{"@type":"Answer","text":"In books, smut means scenes that describe sex explicitly rather than fading to black. Readers use the term to flag romance and erotica with high heat levels. A smut book is one where these explicit scenes are a core part of the story."}},
+    {"@type":"Question","name":"Is My Spicy Vanilla private and discreet?","acceptedAnswer":{"@type":"Answer","text":"Yes. Every story you generate is tied to your account and stays private. We do not publish, sell, or share your prompts or your stories. Privacy is the default, not an upgrade."}},
+    {"@type":"Question","name":"Can I customize the characters?","acceptedAnswer":{"@type":"Answer","text":"Yes. You set names, appearance, personality, relationship dynamic, and how explicit the story gets. You can write yourself and your partner into the story or invent original characters from scratch."}},
+    {"@type":"Question","name":"Can AI write smut better than ChatGPT?","acceptedAnswer":{"@type":"Answer","text":"General assistants like ChatGPT restrict explicit content and refuse most smut requests. My Spicy Vanilla is a purpose-built AI smut writer designed for sensual fiction, so it produces complete, uncensored erotic stories within an adults-only, consent-first framework."}},
+    {"@type":"Question","name":"Is My Spicy Vanilla free?","acceptedAnswer":{"@type":"Answer","text":"You can start generating stories for free with no payment required. Optional upgrades unlock longer stories, more illustrations, audio narration, and additional customization."}},
+    {"@type":"Question","name":"How explicit can the stories get?","acceptedAnswer":{"@type":"Answer","text":"You control the heat level on every story, from slow-burn romance to fully explicit erotic smut. The generator stays within an adults-only, fictional, consent-first scope."}},
+    {"@type":"Question","name":"Who is My Spicy Vanilla for?","acceptedAnswer":{"@type":"Answer","text":"It is for adults 18 and older, especially couples who want to explore fantasy together in a private, judgment-free way. First-time readers and longtime erotica fans use it the same way."}}
+  ]
+}]
